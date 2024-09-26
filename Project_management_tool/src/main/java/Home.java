@@ -14,7 +14,7 @@ public class Home extends JFrame implements ActionListener {
         Image i2 = i1.getImage().getScaledInstance(1120, 630, Image.SCALE_DEFAULT);
         ImageIcon i3 = new ImageIcon(i2);
         JLabel image = new JLabel(i3);
-        image.setBounds(0, 0, 1120, 630);
+        image.setBounds(0, 0, 1115, 630);
         add(image);
 
         JLabel heading = new JLabel("Project Management System");

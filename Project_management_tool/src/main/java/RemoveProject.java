@@ -6,7 +6,7 @@ import java.awt.event.*;
 public class RemoveProject extends JFrame implements ActionListener {
 
     Choice cProjectId;
-    JButton delete, back;
+    JButton delete,back;
 
     RemoveProject() {
         getContentPane().setBackground(Color.WHITE);

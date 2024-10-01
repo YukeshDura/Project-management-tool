@@ -7,7 +7,6 @@ public class Splash extends JFrame implements ActionListener {
     private JLabel heading;
 
     Splash() {
-
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
 
